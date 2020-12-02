@@ -1,0 +1,16 @@
+@media(max-width:426px){
+    #header .mynav{
+        flex-direction: column;
+    }
+    .wi-fi{display:none;}
+    .nav-tabs{
+        border-bottom:1px solid transparent!important;
+    }
+    .tab-bottom{
+        display:block;
+    }
+    .tab-offer{
+        box-sizing: border-box;
+        padding: 0;
+    }
+}
