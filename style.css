@@ -375,3 +375,28 @@
     align-items: center;
     padding:50px 0;
 }
+/* section id list wi-fi*/
+#list-wi-fi .list-title h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #313131;
+}
+#list-wi-fi .list-title{
+    max-width:465px;
+    width:100%;
+    margin:auto;
+}
+#list-wi-fi .list-title p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #313131;
+}
