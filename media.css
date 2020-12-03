@@ -13,4 +13,23 @@
         box-sizing: border-box;
         padding: 0;
     }
+    .list-preview{
+        flex-direction: column;
+    }
+    .list-preview-one{
+        width:100%;
+    }
+    .list-map form input{
+        margin:20px 0;
+    }
+    .list-map{
+        width: 100%;
+    }
+    .list-map form{
+        display:flex;
+        flex-direction: column;
+    }
+    .list-map label{
+        margin-left: 20px;
+    }
 }
