@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b0dbf72-ae33-4072-8213-45169e14e6eb" name="Default Changelist" comment="section list wi-fi">
-      <change afterPath="$PROJECT_DIR$/image/calendar.svg" afterDir="false" />
+    <list default="true" id="7b0dbf72-ae33-4072-8213-45169e14e6eb" name="Default Changelist" comment="section list wi-fi finish">
+      <change afterPath="$PROJECT_DIR$/image/fb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/insta.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/telega.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/viber.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606859760168</updated>
       <workItem from="1606859763228" duration="160000" />
-      <workItem from="1606910246104" duration="23348000" />
+      <workItem from="1606910246104" duration="25118000" />
     </task>
     <task id="LOCAL-00001" summary="project global-net">
       <created>1606933266417</created>
@@ -82,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606995651874</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="section list wi-fi finish">
+      <created>1606997465427</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606997465427</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +103,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="project global-net" />
     <MESSAGE value="section list wi-fi" />
-    <option name="LAST_COMMIT_MESSAGE" value="section list wi-fi" />
+    <MESSAGE value="section list wi-fi finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="section list wi-fi finish" />
   </component>
 </project>
