@@ -95,7 +95,7 @@
 /*style id tarif*/
 #tarif{
     background: url(image/bg-tarif.svg)100% 100% no-repeat;
-    background-size: contain;
+    background-size: cover;
 
 }
 .tarif-item{
@@ -658,4 +658,61 @@
     100% {transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;}}
 #header>.container{
     position:relative;
+}
+#about{
+    background:url(image/bg-about.svg)no-repeat;
+    background-position:center center;
+    width: 100%;
+    padding:168px 0;
+}
+#about .connect-about{
+    max-width:870px;
+    width:100%;
+    margin:auto;
+}
+#about .connect-about h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#about .connect-about p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.tarif-thumb-about{
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    padding:70px 0;
+}
+.tarif-header-about h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    color: #037FC5;
+}
+.tarif-header-about span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #313131;
+}
+.tarif-about{
+    padding-bottom: 165px;
 }

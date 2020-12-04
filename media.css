@@ -35,4 +35,7 @@
     .footer-seti{
         align-items: center;
     }
+    #popup__toggle{
+        right:60%;
+    }
 }
