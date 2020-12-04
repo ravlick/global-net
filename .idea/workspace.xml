@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b0dbf72-ae33-4072-8213-45169e14e6eb" name="Default Changelist" comment="home-page finish">
-      <change afterPath="$PROJECT_DIR$/image/bg-tarif-page.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tarif.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/icon-forever-blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/speedometer1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/speedometer2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon-tower.svg" beforeDir="false" afterPath="$PROJECT_DIR$/image/icon-tower.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarif.html" beforeDir="false" afterPath="$PROJECT_DIR$/tarif.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -55,7 +60,7 @@
       <updated>1606859760168</updated>
       <workItem from="1606859763228" duration="160000" />
       <workItem from="1606910246104" duration="25776000" />
-      <workItem from="1607082748194" duration="4963000" />
+      <workItem from="1607082748194" duration="17119000" />
     </task>
     <task id="LOCAL-00001" summary="project global-net">
       <created>1606933266417</created>
@@ -120,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607086245421</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=" page tarif create">
+      <created>1607088510630</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607088510630</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +157,7 @@
     <MESSAGE value="home-page finish" />
     <MESSAGE value="create page about" />
     <MESSAGE value=" page about finish" />
-    <option name="LAST_COMMIT_MESSAGE" value=" page about finish" />
+    <MESSAGE value=" page tarif create" />
+    <option name="LAST_COMMIT_MESSAGE" value=" page tarif create" />
   </component>
 </project>

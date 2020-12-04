@@ -9,6 +9,7 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -46,9 +47,10 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav mynav">
+                        <li class="hidden-lg hidden-md"><a href="/">Главная</a></li>
                         <li><a href="/about.html">о компании</a></li>
                         <li><a href="#">зона покрытия</a></li>
-                        <li><a href="#">тарифы</a></li>
+                        <li><a href="/tarif.html">тарифы</a></li>
                         <li><a href="#">подключение</a></li>
                         <li><a href="#">оплата</a></li>
                         <li><a href="#">акции</a></li>
@@ -162,307 +164,123 @@
             </div>
         </div>
     </div>
-    <div class="button-tarif d-flex">
-        <a href=""><button>все тарифы</button></a>
-    </div>
+
 </section>
-<section id="offer">
-    <div class="offer-title">
-        <h1>Акции и специальные предложения</h1>
-    </div>
+<section id="last-trafic">
+    <h2>Тарифы с ограничением трафика</h2>
     <div class="container">
-        <div class="offer">
-            <div>
-
-                <!-- Nav tabs -->
-                <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">
-                        <div class="new-offer d-flex">
-                            <img src="image/icon-add-group.svg" alt="">
-                            <span>Для новых абонентов</span>
+        <div class="row">
+            <div class="col-md-6 trafic">
+                <div class="thumbnail">
+                    <div class="trafic-header">
+                        <img src="image/speedometer1.svg" alt="">
+                        <span class="title">Скорый v1 </span>
+                        <span>8Gb/100mbit/20mbit</span>
+                    </div>
+                    <div class="trafic-body">
+                        <div class="trafic-description">
+                            <span class="light">Стоимость</span>
+                            <span class="strong">105грн./мес</span>
                         </div>
-                    </a></li>
-                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
-                        <div class="old-offer d-flex">
-                            <img src="image/icon-old-group.svg" alt="">
-                            <span>Для действующих абонентов</span>
+                        <div class="trafic-description">
+                            <span class="light">Скорость доступа к <br> сети интернет.</span>
+                            <span class="strong">до 100 мБит/с</span>
                         </div>
-                    </a></li>
-
-                </ul>
-
-                <!-- Tab panes -->
-                <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane active fide" id="home">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-4 tab-offer">
-                                <a href="#">
-                                    <img src="image/1.svg" alt="...">
-                                    <div class="tab-title">
-                                        <div class="tab-thumbnail">
-                                            <h3>Lorem ipsum</h3>
-                                            <p>Lorem ipsum dolor sit amet,consectetur
-                                                adipiscing elit, sed do eiusmod tempor</p>
-                                        </div>
-                                    </div>
-                                    <div class="tab-bottom">
-                                        <span>Период проведения</span>
-                                        <span>15/11/2020</span>
-                                        <a href=""><button>подробнее</button></a>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-xs-12 col-md-4 tab-offer">
-                                <a href="#">
-                                    <img src="image/2.svg" alt="...">
-                                    <div class="tab-title">
-                                        <div class="tab-thumbnail">
-                                            <h3>Lorem ipsum</h3>
-                                            <p>Lorem ipsum dolor sit amet,consectetur
-                                                adipiscing elit, sed do eiusmod tempor</p>
-                                        </div>
-                                    </div>
-                                    <div class="tab-bottom">
-                                        <span>Период проведения</span>
-                                        <span>15/11/2020</span>
-                                        <a href=""><button>подробнее</button></a>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-xs-12 col-md-4 tab-offer">
-                                <a href="#">
-                                    <img src="image/3.svg" alt="...">
-                                    <div class="tab-title">
-                                        <div class="tab-thumbnail">
-                                            <h3>Lorem ipsum</h3>
-                                            <p>Lorem ipsum dolor sit amet,consectetur
-                                                adipiscing elit, sed do eiusmod tempor</p>
-                                        </div>
-                                    </div>
-                                    <div class="tab-bottom">
-                                        <span>Период проведения</span>
-                                        <span>15/11/2020</span>
-                                        <a href=""><button>подробнее</button></a>
-                                    </div>
-                                </a>
-                            </div>
+                        <div class="trafic-description">
+                            <span class="redlight">Ограничение трафика в <br> сутки к сети интернет.</span>
+                            <span class="redstrong">12.0Гб/сутки</span>
+                        </div>
+                        <div class="trafic-description">
+                            <span class="light">Скорость доступа к сети <br> интернет после исчерпания <br> льготного трафика.</span>
+                            <span class="strong">до 40 мБит/с</span>
                         </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane fide" id="profile">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-4 tab-offer">
-                                <a href="#">
-                                    <img src="image/3.svg" alt="...">
-                                    <div class="tab-title">
-                                        <div class="tab-thumbnail">
-                                            <h3>Lorem ipsum</h3>
-                                            <p>Lorem ipsum dolor sit amet,consectetur
-                                                adipiscing elit, sed do eiusmod tempor</p>
-                                        </div>
-                                    </div>
-                                    <div class="tab-bottom">
-                                        <span>Период проведения</span>
-                                        <span>15/11/2020</span>
-                                        <a href=""><button>подробнее</button></a>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-xs-12 col-md-4 tab-offer">
-                                <a href="#">
-                                    <img src="image/1.svg" alt="...">
-                                    <div class="tab-title">
-                                        <div class="tab-thumbnail">
-                                            <h3>Lorem ipsum</h3>
-                                            <p>Lorem ipsum dolor sit amet,consectetur
-                                                adipiscing elit, sed do eiusmod tempor</p>
-                                        </div>
-                                    </div>
-                                    <div class="tab-bottom">
-                                        <span>Период проведения</span>
-                                        <span>15/11/2020</span>
-                                        <a href=""><button>подробнее</button></a>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-xs-12 col-md-4 tab-offer">
-                                <a href="#">
-                                    <img src="image/2.svg" alt="...">
-                                    <div class="tab-title">
-                                        <div class="tab-thumbnail">
-                                            <h3>Lorem ipsum</h3>
-                                            <p>Lorem ipsum dolor sit amet,consectetur
-                                                adipiscing elit, sed do eiusmod tempor</p>
-                                        </div>
-                                    </div>
-                                    <div class="tab-bottom">
-                                        <span>Период проведения</span>
-                                        <span>15/11/2020</span>
-                                        <a href=""><button>подробнее</button></a>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+                    <div class="trafic-bottom">
+                        <a href=""><button>заказать</button></a>
                     </div>
-
                 </div>
-
             </div>
-        </div>
-    </div>
-    <div class="offer-bottom">
-        <a href=""><button>все акции</button></a>
-    </div>
-</section>
-<section id="list-wi-fi">
-    <div class="container">
-        <div class="list-title">
-            <h2>Покрытие</h2>
-            <p> Globalnet предоставляет безлимитный домашний
-                Интернет в квартиры и частные дома</p>
-        </div>
-        <div class="list-body offer">
-            <div>
-
-                <!-- Nav tabs -->
-                <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active"><a href="#tower" aria-controls="home" role="tab" data-toggle="tab">
-                        <div class="new-offer d-flex">
-                            <img src="image/icon-tab.svg" alt="">
-                            <span>Многоэтажные дома</span>
+            <div class="col-md-6 trafic">
+                <div class="thumbnail">
+                        <div class="trafic-header">
+                            <img src="image/speedometer1.svg" alt="">
+                            <span class="title">Скорый v2 </span>
+                            <span>12Gb/100mbit/40mbit</span>
                         </div>
-                    </a></li>
-                    <li role="presentation"><a href="#profile-home" aria-controls="profile" role="tab" data-toggle="tab">
-                        <div class="old-offer d-flex">
-                            <img src="image/icon-tab1.svg" alt="">
-                            <span>Приватный сектор</span>
+                    <div class="trafic-body">
+                        <div class="trafic-description">
+                            <span class="light">Стоимость</span>
+                            <span class="strong">105грн./мес</span>
                         </div>
-                    </a></li>
-
-                </ul>
-                <div class="list-map">
-                    <form action="">
-                        <label class="map-touch" for="name">Район:</label>
-                        <select name="name" id="name">
-                            <option value="">Бородинский р-н</option>
-                            <option value="">Днепровскмй р-н</option>
-                        </select>
-                        <input type="text" placeholder="Название улицы">
-                        <input type="text" placeholder="Номер дома">
-                    </form>
-                </div>
-
-                <!-- Tab panes -->
-                <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane active" id="tower">
-                        <div class="d-flex list-preview">
-                            <div class="list-preview-one">
-                                <p>Обозначение на карте покрытия сети:</p>
-                                <ul>
-                                    <li class="d-flex">
-                                        <img src="image/location%201.svg" alt="">
-                                        <span>Подключено - дом уже подключен к услугам и Вы уже
-                                            можете заказать подключение.</span>
-                                    </li>
-                                    <li class="d-flex">
-                                        <img src="image/location2.svg" alt="">
-                                        <span>В процессе подключения - дом в процессе подключения, оставляйте заявку и
-                                            Вы узнаете одним из первых о подключении дома.</span>
-                                    </li>
-                                    <li class="d-flex">
-                                        <img src="image/loc.svg" alt="">
-                                        <span>Нет технической возможности - дом уже прорабатывался, но
-                                            не подключены по причине административных вопросов с обслуживающей
-                                            компанией. Оставляйте предварительную заявку и мы восстановим переговоры
-                                            для проведения работ по подключению дома.</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="list-preview-two">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2676.211142162016!2d35.048284115345886!3d47.874239179203315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc6405ab3383af%3A0x3fcb01ee2a5691a4!2z0KHRh9Cw0YHRgtC70LjQstCw0Y8g0YPQuy4sIDEzLCDQl9Cw0L_QvtGA0L7QttGM0LUsINCX0LDQv9C-0YDQvtC20YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDY5MDAw!5e0!3m2!1sru!2sua!4v1606994833027!5m2!1sru!2sua" width="100%" height="419" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                            </div>
+                        <div class="trafic-description">
+                            <span class="light">Скорость доступа к <br> сети интернет.</span>
+                            <span class="strong">до 100 мБит/с</span>
+                        </div>
+                        <div class="trafic-description">
+                            <span class="redlight">Ограничение трафика в <br> сутки к сети интернет.</span>
+                            <span class="redstrong">12.0Гб/сутки</span>
+                        </div>
+                        <div class="trafic-description">
+                            <span class="light">Скорость доступа к сети <br> интернет после исчерпания <br> льготного трафика.</span>
+                            <span class="strong">до 40 мБит/с</span>
                         </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane" id="profile-home">
-                        <div class="d-flex list-preview">
-                            <div class="list-preview-one">
-                                <p>Обозначение на карте покрытия сети:</p>
-                                <ul>
-                                    <li class="d-flex">
-                                        <img src="image/location%201.svg" alt="">
-                                        <span>Подключено - дом уже подключен к услугам и Вы уже
-                                            можете заказать подключение.</span>
-                                    </li>
-                                    <li class="d-flex">
-                                        <img src="image/location2.svg" alt="">
-                                        <span>В процессе подключения - дом в процессе подключения, оставляйте заявку и
-                                            Вы узнаете одним из первых о подключении дома.</span>
-                                    </li>
-                                    <li class="d-flex">
-                                        <img src="image/loc.svg" alt="">
-                                        <span>Нет технической возможности - дом уже прорабатывался, но
-                                            не подключены по причине административных вопросов с обслуживающей
-                                            компанией. Оставляйте предварительную заявку и мы восстановим переговоры
-                                            для проведения работ по подключению дома.</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="list-preview-two">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2676.211142162016!2d35.048284115345886!3d47.874239179203315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc6405ab3383af%3A0x3fcb01ee2a5691a4!2z0KHRh9Cw0YHRgtC70LjQstCw0Y8g0YPQuy4sIDEzLCDQl9Cw0L_QvtGA0L7QttGM0LUsINCX0LDQv9C-0YDQvtC20YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDY5MDAw!5e0!3m2!1sru!2sua!4v1606994833027!5m2!1sru!2sua" width="100%" height="419" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-<section id="blog-home">
-    <div class="blog-home-title">
-        <h2>Новости</h2>
-    </div>
-    <div class="container">
-        <div class="blog-home-body">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <div class="date">
-                            <span>15.11.2020</span>
-                            <p>В связи со сложившийся аварийной ситуацией с
-                                электроэнергией по Осипенковскому микрорайону,
-                                с 24.11.2019 с 22:00 по 25.11.2019 - до устранения...</p>
-                            <a href=""><button class="btn-link btn-news">Подробнее</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <div class="date">
-                            <span>15.11.2020</span>
-                            <p>В связи со сложившийся аварийной ситуацией с
-                                электроэнергией по Осипенковскому микрорайону,
-                                с 24.11.2019 с 22:00 по 25.11.2019 - до устранения...</p>
-                            <a href=""><button class="btn-link btn-news">Подробнее</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <div class="date">
-                            <span>15.11.2020</span>
-                            <p>В связи со сложившийся аварийной ситуацией с
-                                электроэнергией по Осипенковскому
-                                микрорайону, с 24.11.2019 с 22:00 по 25.11.2019 - до устранения...</p>
-                            <a href=""><button class="btn-link btn-news">Подробнее</button></a>
-                        </div>
+                    <div class="trafic-bottom">
+                        <a href=""><button>заказать</button></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="news-bottom d-flex">
-        <a href=""><button class="btn-all-news">все новости</button></a>
+</section>
+<section id="abonent">
+    <div class="abonent-header">
+        <img src="image/icon-home.svg" alt="">
+        <h3>Тарифы для абонентов многоэтажных жилых домов
+            Частного сектора действуют с 15.03.2017г </h3>
+        <p>условия подключения и возможность узнавайте по тел.</p>
+        <a href="tel:+380612286777">228-67-77 ,</a>
+        <a href="tel:+380612849087">284-90-87 ,</a>
+        <a href="tel:+380673618881">067-361-88-81</a>
+    </div>
+    <div class="abonent-body">
+        <div class="container">
+            <div class="slider">
+                <div class="slide">
+                    <div class="slide-container">
+                        <div class="abonent-slide-header">
+                            <img src="image/icon-forever-blue.svg" alt="">
+                            <span>Unlim25/25</span>
+                        </div>
+                        <div class="abonent-slide-body">
+                            <div class="price">
+                                <span>85</span>
+                                <span>грн/мес</span>
+                            </div>
+                        </div>
+                        <div class="abonent-slide-bottom">
+                            <a href=""><button>Заказать</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <a href="#" class="thumbnail">
+                        <img src="image/icon-forever.svg" alt="...">
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="#" class="thumbnail">
+                        <img src="image/icon-forever.svg" alt="...">
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="#" class="thumbnail">
+                        <img src="image/icon-forever.svg" alt="...">
+                    </a>
+                </div>
+            </div>
+
+        </div>
     </div>
 </section>
 <footer id="footer">
@@ -523,5 +341,7 @@
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

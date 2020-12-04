@@ -38,4 +38,8 @@
     #popup__toggle{
         right:60%;
     }
+    .trafic-description{
+        flex-direction: column;
+        align-items: center;
+    }
 }
