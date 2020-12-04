@@ -942,9 +942,10 @@
     font-style: normal;
     font-weight: 500;
     font-size: 50px;
-    line-height: 61px;
+    line-height: 47px;
     text-align: center;
     color: #037FC5;
+    margin:0 5px;
 }
 .abonent-slide-body .price span:last-child{
     font-family: Inter;
@@ -954,8 +955,53 @@
     line-height: 31px;
     text-align: center;
     color: #313131;
+    margin:0 5px;
 }
 .abonent-slide-body .price{
     display:flex;
     justify-content: center;
+    align-items: flex-end;
+    height: 65px;
+}
+.abonent-slide-body .donwload{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.abonent-slide-body .donwload>div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:20px 20px 0;
+}
+.abonent-slide-body .donwload>div span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #AAAAAA;
+    margin-top: 10px;
+}
+.slide{
+    padding:15px;
+}
+.bx-wrapper{
+    background: transparent;
+    border:5px solid transparent;
+    box-shadow: none;
+}
+.bx-wrapper .bx-next{
+    background:url(image/arrow-right.svg)!important;
+
+}
+.bx-wrapper .bx-prev{
+    background:url(image/arrow-left.svg)!important;
+
+}
+.bx-wrapper .bx-controls-direction a{
+    width:39px!important;
+    height:39px!important;
 }
