@@ -995,13 +995,103 @@
 }
 .bx-wrapper .bx-next{
     background:url(image/arrow-right.svg)!important;
-
+    right:-50px!important;
 }
 .bx-wrapper .bx-prev{
     background:url(image/arrow-left.svg)!important;
-
+    left:-50px!important;
 }
 .bx-wrapper .bx-controls-direction a{
     width:39px!important;
     height:39px!important;
+}
+/*section optica*/
+#optica{
+    background: #FFFFFF;
+    padding:50px 0;
+}
+.optica-header{
+    max-width:772px;
+    width:100%;
+    margin:auto;
+}
+.optica-header{
+    text-align: center;
+}
+.optica-header h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #313131;
+}
+.optica-header p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #313131;
+}
+.optica-header a{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #037FC5;
+}
+#yurik{
+    background: #E3F2FD;
+    padding:50px 0;
+}
+.yurik-header{
+    max-width: 772px;
+    margin:auto;
+    width:100%;
+    text-align: center;
+}
+.yurik-header h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #313131;
+}
+.yurik-header p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #313131;
+}
+.yurik-header a{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #037FC5;
+}
+#tarif-service{
+    padding:70px 0;
+    background: #fff;
+}
+#tarif-service h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #313131;
 }

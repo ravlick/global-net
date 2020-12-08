@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b0dbf72-ae33-4072-8213-45169e14e6eb" name="Default Changelist" comment="home-page finish">
-      <change afterPath="$PROJECT_DIR$/image/arrow-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/arrow-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/download1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/download2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/Apartment.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/Building1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/Building2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/Building3.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tarif.html" beforeDir="false" afterPath="$PROJECT_DIR$/tarif.html" afterDir="false" />
     </list>
@@ -58,7 +58,10 @@
       <updated>1606859760168</updated>
       <workItem from="1606859763228" duration="160000" />
       <workItem from="1606910246104" duration="25776000" />
-      <workItem from="1607082748194" duration="18817000" />
+      <workItem from="1607082748194" duration="21120000" />
+      <workItem from="1607273618997" duration="116000" />
+      <workItem from="1607336128411" duration="43000" />
+      <workItem from="1607433389662" duration="3529000" />
     </task>
     <task id="LOCAL-00001" summary="project global-net">
       <created>1606933266417</created>
@@ -144,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607110439170</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="slider-tarif continue...">
+      <created>1607112396458</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607112396458</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +170,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -171,6 +182,7 @@
     <MESSAGE value=" page about finish" />
     <MESSAGE value=" page tarif create" />
     <MESSAGE value=" page tarif continue..." />
-    <option name="LAST_COMMIT_MESSAGE" value=" page tarif continue..." />
+    <MESSAGE value="slider-tarif continue..." />
+    <option name="LAST_COMMIT_MESSAGE" value="slider-tarif continue..." />
   </component>
 </project>

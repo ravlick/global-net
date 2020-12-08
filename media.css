@@ -42,4 +42,10 @@
         flex-direction: column;
         align-items: center;
     }
+    .bx-wrapper .bx-next{
+        right:10px!important;
+    }
+    .bx-wrapper .bx-prev{
+        left:10px!important;
+    }
 }
