@@ -1332,3 +1332,54 @@
     color: #037FC5;
     margin-top: 30px;
 }
+.coating-title{
+    width:100%;
+    max-width:835px;
+    margin:auto;
+}
+.coating-title h1{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #313131;
+}
+.coating-title span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #313131;
+}
+.call-header-call{
+    max-width:896px;
+    width:100%;
+    margin:auto;
+}
+.call-header-call a{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.call-header-call .call-number{
+    display:flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.call-header-call span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}

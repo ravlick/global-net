@@ -48,4 +48,7 @@
     .bx-wrapper .bx-prev{
         left:10px!important;
     }
+    .item-connect-header{
+        flex-direction: column;
+    }
 }

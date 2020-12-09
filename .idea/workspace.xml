@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b0dbf72-ae33-4072-8213-45169e14e6eb" name="Default Changelist" comment="home-page finish">
-      <change afterPath="$PROJECT_DIR$/connection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/connection.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coating.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connection.html" beforeDir="false" afterPath="$PROJECT_DIR$/connection.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tarif.html" beforeDir="false" afterPath="$PROJECT_DIR$/tarif.html" afterDir="false" />
     </list>
@@ -62,7 +63,7 @@
       <workItem from="1607336128411" duration="43000" />
       <workItem from="1607433389662" duration="3740000" />
       <workItem from="1607437772033" duration="133000" />
-      <workItem from="1607515583636" duration="7466000" />
+      <workItem from="1607515583636" duration="10064000" />
     </task>
     <task id="LOCAL-00001" summary="project global-net">
       <created>1606933266417</created>
@@ -169,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607517772813</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="connection page finish">
+      <created>1607526674039</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1607526674039</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +208,7 @@
     <MESSAGE value="slider-tarif continue..." />
     <MESSAGE value="tarif continue..." />
     <MESSAGE value="tarif page finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="tarif page finish" />
+    <MESSAGE value="connection page finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="connection page finish" />
   </component>
 </project>
