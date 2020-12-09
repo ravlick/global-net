@@ -1094,4 +1094,56 @@
     line-height: 36px;
     text-align: center;
     color: #313131;
+    margin-bottom: 25px;
+}
+#tarif-service .panel-body{
+    background: #037FC5;
+    border-radius: 5px;
+    display:flex;
+
+}
+#tarif-service .panel-body div:first-child{
+    width:50%;
+}
+#tarif-service .panel-body div:nth-child(2){
+    width:25%;
+}
+#tarif-service .panel-body div:nth-child(3){
+    width:25%;
+}
+#tarif-service .panel-body span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+#tarif-service .panel-footer{
+    background: #fff;
+    border-radius: 5px;
+    display:flex;
+    padding:20px;
+}
+#tarif-service .panel-footer div:first-child{
+    width:50%;
+}
+#tarif-service .panel-footer div:nth-child(2){
+    width:25%;
+}
+#tarif-service .panel-footer div:nth-child(3){
+    width:25%;
+}
+#tarif-service .panel-footer span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #313131;
+}
+#tarif-service .panel-blue{
+    background: #E3F2FD;
+    border-radius: 5px;
+    padding:20px;
 }
