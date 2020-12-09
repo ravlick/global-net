@@ -1147,3 +1147,188 @@
     border-radius: 5px;
     padding:20px;
 }
+/*connection page*/
+
+#connection-page{
+    background:url(image/connection.svg)no-repeat;
+    background-position:center center;
+    width: 100%;
+    padding:168px 0;
+}
+#connection-page .connection-title{
+    max-width:662px;
+    width:100%;
+    margin:auto;
+    text-align: center;
+}
+#connection-page .connection-title h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#connection-page .connection-title span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btn-connect{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 429px;
+    max-width: 100%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+   padding:15px 0;
+    text-align: center;
+    color: #037FC5;
+    margin-top: 45px;
+    text-transform: uppercase;
+}
+#connect-home{
+    background: #E3F2FD;
+}
+.connect-home .item-connect{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    padding:50px;
+}
+.item-connect-header{
+    display:flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.item-connect-header div{
+    margin:0 20px;
+}
+.item-connect-header h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #313131;
+}
+.item-connect-header span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #AAAAAA;
+}
+.item-connect-body p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #313131;
+}
+.item-connect-body{
+    padding:0 20px;
+}
+.item-connect{
+    position:relative;
+    top:-90px;
+}
+.item-connect.last{
+    margin-top: 30px;
+}
+.connect-tarif{
+    background: #fff;
+}
+.connect-tarif h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #313131;
+    margin:45px 0 30px;
+}
+.tarif-c{
+    margin-bottom: 40px;
+}
+.tarif-c-bottom button{
+    width:239px;
+    padding:15px 0;
+    border: 1px solid #037FC5;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #037FC5;
+    background: #fff;
+}
+.tarif-c-bottom{
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 20px;
+}
+#call{
+    background: #037FC5;
+    padding:45px 0;
+}
+.call-header{
+    width:700px;
+    max-width: 100%;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.call-header h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.call-header span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btn-call{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    width:265px;
+    padding:15px 0;
+    background: #fff;
+    color: #037FC5;
+    margin-top: 30px;
+}
