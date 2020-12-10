@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b0dbf72-ae33-4072-8213-45169e14e6eb" name="Default Changelist" comment="home-page finish">
-      <change afterPath="$PROJECT_DIR$/action.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/Bank.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/bg-pay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/credit-card.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/man.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/mobilrphone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/pb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/ukrsib.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coating.html" beforeDir="false" afterPath="$PROJECT_DIR$/coating.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connection.html" beforeDir="false" afterPath="$PROJECT_DIR$/connection.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarif.html" beforeDir="false" afterPath="$PROJECT_DIR$/tarif.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/pay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +66,7 @@
       <workItem from="1607433389662" duration="3740000" />
       <workItem from="1607437772033" duration="133000" />
       <workItem from="1607515583636" duration="10965000" />
+      <workItem from="1607594319566" duration="5554000" />
     </task>
     <task id="LOCAL-00001" summary="project global-net">
       <created>1606933266417</created>
