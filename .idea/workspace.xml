@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b0dbf72-ae33-4072-8213-45169e14e6eb" name="Default Changelist" comment="home-page finish">
-      <change afterPath="$PROJECT_DIR$/image/Bank.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bg-pay.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/credit-card.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/man.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mobilrphone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/pb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ukrsib.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/credit-card-terminal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/i-box.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/slide1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/slide2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/slide3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/slide4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/slide5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/termin_kod.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/pay.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -66,7 +68,10 @@
       <workItem from="1607433389662" duration="3740000" />
       <workItem from="1607437772033" duration="133000" />
       <workItem from="1607515583636" duration="10965000" />
-      <workItem from="1607594319566" duration="5554000" />
+      <workItem from="1607594319566" duration="6084000" />
+      <workItem from="1607613653079" duration="661000" />
+      <workItem from="1607677718403" duration="39000" />
+      <workItem from="1607697757045" duration="3148000" />
     </task>
     <task id="LOCAL-00001" summary="project global-net">
       <created>1606933266417</created>
@@ -187,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607536934964</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="page pay continue...">
+      <created>1607608695540</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1607608695541</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +232,7 @@
     <MESSAGE value="tarif page finish" />
     <MESSAGE value="connection page finish" />
     <MESSAGE value="coating page finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="coating page finish" />
+    <MESSAGE value="page pay continue..." />
+    <option name="LAST_COMMIT_MESSAGE" value="page pay continue..." />
   </component>
 </project>
