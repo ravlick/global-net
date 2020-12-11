@@ -1248,9 +1248,9 @@
 .item-connect.last{
     margin-top: 30px;
 }
-.connect-tarif{
-    background: #fff;
-}
+/*.connect-tarif{*/
+/*    background: #fff;*/
+/*}*/
 .connect-tarif h2{
     font-family: Inter;
     font-style: normal;
@@ -1644,4 +1644,17 @@
 }
 .pay-slider .bx-viewport{
     height:auto!important;
+}
+/*page action*/
+#action-page .offer-title p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #313131;
+}
+#action-page .offer-title{
+    margin-top:100px;
 }
