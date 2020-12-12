@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b0dbf72-ae33-4072-8213-45169e14e6eb" name="Default Changelist" comment="home-page finish">
+      <change afterPath="$PROJECT_DIR$/image/bg-service.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/fly.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/internet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/router.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/seti.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/action.html" beforeDir="false" afterPath="$PROJECT_DIR$/action.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/service.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarif.html" beforeDir="false" afterPath="$PROJECT_DIR$/tarif.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +67,8 @@
       <workItem from="1607594319566" duration="6084000" />
       <workItem from="1607613653079" duration="661000" />
       <workItem from="1607677718403" duration="39000" />
-      <workItem from="1607697757045" duration="4964000" />
+      <workItem from="1607697757045" duration="8099000" />
+      <workItem from="1607770609444" duration="5899000" />
     </task>
     <task id="LOCAL-00001" summary="project global-net">
       <created>1606933266417</created>
@@ -198,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607703124214</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="page action finish">
+      <created>1607704739287</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1607704739287</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +245,7 @@
     <MESSAGE value="coating page finish" />
     <MESSAGE value="page pay continue..." />
     <MESSAGE value="page pay finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="page pay finish" />
+    <MESSAGE value="page action finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="page action finish" />
   </component>
 </project>

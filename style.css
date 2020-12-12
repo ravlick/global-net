@@ -1658,3 +1658,204 @@
 #action-page .offer-title{
     margin-top:100px;
 }
+/*service page*/
+#service-page{
+    background: url(image/bg-service.svg)no-repeat;
+    background-position: center center;
+    width: 100%;
+    padding: 168px 0;
+}
+.service-page-header{
+    max-width:700px;
+    width:100%;
+    margin:auto;
+    text-align: center;
+}
+.service-page-header h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.service-page-header p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.service-page-header a{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin:10px;
+}
+.service-connect-page{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    padding:50px;
+    position: relative;
+    top: -70px;
+}
+.service-connect-page-header{
+    display:flex;
+    align-items: center;
+}
+.service-connect-page-header h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #313131;
+}
+.service-connect-page-body p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #313131;
+}
+.service-connect-page-body {
+    padding: 25px 0;
+    border-bottom:1px solid #E3E3E3;
+}
+.service-connect-page-footer{
+    padding: 25px 0;
+}
+.service-connect-page-footer p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #313131;
+    margin:10px 0;
+}
+.service-connect-page-footer span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    color: #037FC5;
+}
+.service-connect-page-bottom p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    color: #037FC5;
+}
+.service-connect-page-bottom img{
+    margin-left: 20px;
+}
+.service-connect-error{
+    margin:100px 0;
+}
+.service-connect-error-header{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.service-connect-error-body ol li{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #313131;
+    display:flex;
+    align-items: center;
+}
+.service-connect-error-body ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+}
+.service-connect-error-body li {
+    counter-increment: my-awesome-counter;
+    margin: 19px;
+}
+.service-connect-error-body li::before {
+    content: counter(my-awesome-counter);
+    background: #037FC5;
+    border-radius: 5px;
+
+    height: 35px;
+    padding:5px 10px;
+    text-align: center;
+    margin-right: 20px;
+    float: left;
+    display:block;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.service-error-header h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #313131;
+}
+.service-error{
+    margin-bottom: 100px;
+}
+.service-error-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.service-error-body span.blue-list{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #037FC5;
+}
+.service-error-body span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #313131;
+}
+.service-error-body li{
+    color: #037FC5;
+    margin:20px 0;
+}
+.service-error-footer p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #313131;
+}
+.service-error-footer a{
+    color: #037FC5;
+}
