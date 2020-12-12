@@ -1862,6 +1862,7 @@
 /*contact page*/
 #contact-page{
     background: url(image/bg-contact.svg)no-repeat;
+    background-position: center center;
     width: 100%;
     padding: 168px 0;
 }

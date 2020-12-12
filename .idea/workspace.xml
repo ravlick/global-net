@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b0dbf72-ae33-4072-8213-45169e14e6eb" name="Default Changelist" comment="home-page finish">
-      <change afterPath="$PROJECT_DIR$/image/bg-contact-form.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/email.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ic_round-mail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/logo_global.net.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ph_phone-call-fill.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/phone-form.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/speech.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/user.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/service.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +61,7 @@
       <workItem from="1607613653079" duration="661000" />
       <workItem from="1607677718403" duration="39000" />
       <workItem from="1607697757045" duration="8099000" />
-      <workItem from="1607770609444" duration="12522000" />
+      <workItem from="1607770609444" duration="13025000" />
     </task>
     <task id="LOCAL-00001" summary="project global-net">
       <created>1606933266417</created>
@@ -222,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607779321830</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="contact page finish">
+      <created>1607786679410</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1607786679410</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +254,7 @@
     <MESSAGE value="page pay finish" />
     <MESSAGE value="page action finish" />
     <MESSAGE value="service page finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="service page finish" />
+    <MESSAGE value="contact page finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="contact page finish" />
   </component>
 </project>
