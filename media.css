@@ -51,4 +51,14 @@
     .item-connect-header{
         flex-direction: column;
     }
+    .phone-service a{
+        display: block;
+    }
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-page-header .phone-service{
+        flex-direction: column;
+        display:flex;
+    }
 }
