@@ -2004,3 +2004,137 @@
     top: -70px;
     background: #fff;
 }
+#header-blog{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:100px 0 50px;
+}
+#header-blog h1{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #313131;
+}
+#header-blog span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #313131;
+}
+.single-anons span{
+    display:flex;
+    flex-direction: column;
+}
+#body-blog .single-blog{
+    padding: 14px;
+}
+#body-blog .single-blog .thumb-blog{
+    background: linear-gradient(0deg, rgba(21, 21, 21, 0.25), rgba(21, 21, 21, 0.25)), url(.jpg), url(umberto-FewHpO4VC9Y-unsplash.jpg), url(ludovic-toinel-nGwyaWKFRVI-unsplash.jpg), #C4C4C4;
+    border-radius: 5px;
+    max-width: 370px;
+    width:100%;
+    margin:auto;
+}
+#body-blog .single-blog .thumb-blog>img{
+    width:100%;
+}
+.thumb-blog .single-anons{
+    position:absolute;
+    width:295px;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+    text-align: center;
+}
+.thumb-blog .single-anons span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.single-anons>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.btn-blog{
+    background: #FFFFFF;
+    border-radius: 5px;
+    width:239px;
+    margin:80px auto 0;
+    padding:15px 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #037FC5;
+}
+.form-blog{
+    max-width: 721px;
+    width:100%;
+    padding:50px 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    height:314px;
+}
+.form-blog h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #313131;
+}
+.btn-post-form{
+    background: #FF5252;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    max-width: 553px;
+    width: 100%;
+    padding:15px 0;
+    margin-top: 41px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+#form-blog{
+    display:flex;
+    justify-content: center;
+    position:relative;
+    bottom:-70px;
+}
+.form-blog input{
+    width:100%;
+    outline: none;
+    border-bottom:1px solid #808080;
+
+}
+.form-blog form>div{
+    display: flex;
+
+}
+.form-blog form>div img{
+    margin-right: 15px;
+}
