@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b0dbf72-ae33-4072-8213-45169e14e6eb" name="Default Changelist" comment="home-page finish">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ToDoList" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -65,6 +65,7 @@
       <workItem from="1607969995272" duration="590000" />
       <workItem from="1607974018331" duration="13192000" />
       <workItem from="1608145779931" duration="63000" />
+      <workItem from="1608213553536" duration="135000" />
     </task>
     <task id="LOCAL-00001" summary="project global-net">
       <created>1606933266417</created>
@@ -241,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608068805174</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="commit last">
+      <created>1608213598247</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1608213598247</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +289,7 @@
     <MESSAGE value="contact page finish" />
     <MESSAGE value="start blog page" />
     <MESSAGE value="finish blog page" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish blog page" />
+    <MESSAGE value="commit last" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit last" />
   </component>
 </project>
